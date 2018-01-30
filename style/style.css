@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn+SC:400,700');
+body {
+	margin: 0;
+	text-align: center;
+}
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+header {
+	background-color: #39B4C0;
+    height: 50px;
+}
+h1 {
+	font-family: 'Vollkorn SC', serif;
+	font-size: 50px;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+h2 {
+	font-family: 'Vollkorn SC', serif;
+	font-size: 25px;
+	color: #2e97a0;
+	margin-bottom: 40px;
+}
+span {
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+button {
+	border-color: #f1c40f;
+	color: #f1c40f;
+	background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+	margin: 4px 2px;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border: 2px solid;
+	transition: 0.4s;
+	background-position: 100% 0;
+	background-size: 300%;
+}
+button:hover {
+	background-position: 0 100%;
+	color: white;
+}
+button:focus {
+    outline: 0;
+}
+i {
+	padding-left: 16px;
+    font-size: 17px
+}
+input {
+	margin: 4px 2px;
+	padding: 15px 30px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: #ffccbc 2px solid;
+	color: #bebebe;
+}
+input:focus {
+	outline:0;
+}
+h3 {
+	font-family: 'Vollkorn SC', serif;
+	margin-top: 40px;
+	font-size: 25px;
+	color: #2e97a0;
+}
+ul {
+	list-style-type: none;
+	font-family: 'Vollkorn SC', serif;
+    font-size: 20px;
+    padding: 0;
+}
+li {
+	padding: 12px;
+}
+.author {
+	background-color: #39B4C0;
+    color: white;
+}
+.first-line {
+	background-color: #2e97a0;
+	height: 90px;
+}
+p {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+.country-box {
+	border: 1px solid #66697e;
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+	h1 {
+		font-size: 35px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	span {
+		font-size: 10px;
+	}
+	button, input {
+		width: 260px;
+	}
+}
